@@ -3,16 +3,15 @@
 - Define abstractions
 
 - Abstraction examples
-
   - Binary
-
   - Assembly
-
   - C/C++
-
   - Javascript
-
   - Coffeescript
+  - Networking/Hardware
+    - Sockets
+    - Connections
+    - Drivers
 
 - Useful Javascript abstractions
 
