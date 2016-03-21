@@ -22,6 +22,7 @@
         - Decision Tables
         - Rules Tables
       - Actors
+      - Job Queues
     - Layout (Bootstrap)
       - Grid
       - Fluid
@@ -33,10 +34,18 @@
       - Neural Nets
         - Neurons/Trees
 
-## Useful Javascript abstractions
-
-## Useful Ruby abstractions
-
 # Decoupling
 
+bq. Elements are coupled if a change in one forces a change in the other. For example, if two classes inherit from a common parent, then a change in one class might require a change in the other. Think of a combo audio system: It’s tightly coupled because if we want to change from analog to digital radio, we must rebuild the whole system. If we assemble a system from separates, it would have low coupling and we could just swap out the receiver. “Loosely” coupled features (i.e., those with low coupling) are easier to maintain.
+
 # Finding ways to decouple (when it makes sense)
+
+- (Seperation of Concerns)[https://en.wikipedia.org/wiki/Separation_of_concerns]
+
+- Each module in our code should do something distinct, and the logic in the module should be grouped by something that makes sense. Using abstraction, we can divy our problem space up into various modules that each have their own purpose.  This promotes reuse and decoupling!
+
+- In theory this makes your code much more testable as well, since each module can be tested on its own and has a clear interface. (TDD)
+
+
+
+
