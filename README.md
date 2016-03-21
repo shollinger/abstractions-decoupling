@@ -1,24 +1,37 @@
-# abstractions-decoupling
 
 # Abstractions
 
 - Abstraction examples
   - Programming/Compiling
-    - Binary
-    - Assembly
-    - C/C++
-    - Javascript
-    - Coffeescript
+    - Binary (Processor)
+    - Assembly (OS)
+    - C/C++ (Browser Source)
+    - Javascript (Browser Engine)
+    - Coffeescript (Coffee Compiler)
   - Networking/Hardware
     - Sockets
     - Connections
     - Drivers
   - Frameworks
-    - Model/View/Controller
-    - Bootstrap
+    - Layers
+      - Model/View/Controller
+      - Extract/Transform/Load
+    - Process Cycle
+      - Node Process Loop
+      - Executors/Runners/Commands/Command Chains
+        - Decision Tables
+        - Rules Tables
+      - Actors
+    - Layout (Bootstrap)
       - Grid
       - Fluid
     - Ember
+      - Routes
+      - Bound Variables
+      - Components
+    - AI
+      - Neural Nets
+        - Neurons/Trees
 
 ## Useful Javascript abstractions
 
