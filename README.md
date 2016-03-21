@@ -4,22 +4,20 @@
 
 - Abstraction examples
 
--- Programming Languages
+-- Binary
 
---- Binary
+-- Assembly
 
---- Assembly
+-- C/C++
 
---- C/C++
+-- Javascript
 
---- Javascript
+-- Coffeescript
 
---- Coffeescript
+- Useful Javascript abstractions
 
--Useful Javascript abstractions
+- Useful Ruby abstractions
 
--Useful Ruby abstractions
+- Define decoupling
 
--Define decoupling
-
--Finding ways to decouple (when it makes sense)
+- Finding ways to decouple (when it makes sense)
