@@ -3,11 +3,17 @@
 - Define abstractions
 
 - Abstraction examples
+
 -- Programming Languages
+
 --- Binary
+
 --- Assembly
+
 --- C/C++
+
 --- Javascript
+
 --- Coffeescript
 
 -Useful Javascript abstractions
