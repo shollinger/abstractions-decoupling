@@ -36,7 +36,18 @@
 
 # Decoupling
 
-bq. Elements are coupled if a change in one forces a change in the other. For example, if two classes inherit from a common parent, then a change in one class might require a change in the other. Think of a combo audio system: It’s tightly coupled because if we want to change from analog to digital radio, we must rebuild the whole system. If we assemble a system from separates, it would have low coupling and we could just swap out the receiver. “Loosely” coupled features (i.e., those with low coupling) are easier to maintain.
+Elements are coupled if a change in one forces a change in the other. For example, if two classes inherit from a common parent, then a change in one class might require a change in the other. Think of a combo audio system: It’s tightly coupled because if we want to change from analog to digital radio, we must rebuild the whole system. If we assemble a system from separates, it would have low coupling and we could just swap out the receiver. “Loosely” coupled features (i.e., those with low coupling) are easier to maintain.
+
+Some choices require you to tightly couple:
+
+- Programming Language
+- MVC Framework
+- Database
+- Job Queue System
+
+With custom code that we're writing, we want to make a point to lessen the amount of coupling between our modules.  We'll have coupling with the libraries we use, but the way our modules interact with each other should be replaceable and modifiable with minimal touches.
+
+
 
 # Finding ways to decouple (when it makes sense)
 
