@@ -4,15 +4,15 @@
 
 - Abstraction examples
 
--- Binary
+  -- Binary
 
--- Assembly
+  -- Assembly
 
--- C/C++
+  -- C/C++
 
--- Javascript
+  -- Javascript
 
--- Coffeescript
+  -- Coffeescript
 
 - Useful Javascript abstractions
 
