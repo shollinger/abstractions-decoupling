@@ -1,6 +1,6 @@
 # abstractions-decoupling
 
-- Define abstractions
+# Abstractions
 
 - Abstraction examples
   - Programming/Compiling
@@ -13,11 +13,17 @@
     - Sockets
     - Connections
     - Drivers
+  - Frameworks
+    - Model/View/Controller
+    - Bootstrap
+      - Grid
+      - Fluid
+    - Ember
 
-- Useful Javascript abstractions
+## Useful Javascript abstractions
 
-- Useful Ruby abstractions
+## Useful Ruby abstractions
 
-- Define decoupling
+# Decoupling
 
-- Finding ways to decouple (when it makes sense)
+# Finding ways to decouple (when it makes sense)
