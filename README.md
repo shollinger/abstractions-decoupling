@@ -3,11 +3,12 @@
 - Define abstractions
 
 - Abstraction examples
-  - Binary
-  - Assembly
-  - C/C++
-  - Javascript
-  - Coffeescript
+  - Programming/Compiling
+    - Binary
+    - Assembly
+    - C/C++
+    - Javascript
+    - Coffeescript
   - Networking/Hardware
     - Sockets
     - Connections
