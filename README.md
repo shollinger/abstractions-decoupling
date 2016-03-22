@@ -56,6 +56,7 @@ With custom code that we're writing, we want to make a point to lessen the amoun
 - Each module in our code should do something distinct, and the logic in the module should be grouped by something that makes sense. Using abstraction, we can divy our problem space up into various modules that each have their own purpose.  This promotes reuse and decoupling!
 
 - In theory this makes your code much more testable as well, since each module can be tested on its own and has a clear interface. (TDD)
+- Telescope between the levels of abstraction in your system.
 
 
 
